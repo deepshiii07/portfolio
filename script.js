@@ -12,7 +12,7 @@ const portfolioData = {
     github: "https://github.com/deepshiii07",
     linkedin: "https://www.linkedin.com/in/bhardwajdeepshikha50/"
   },
-  profileImage: "assets/profile.jpg",
+  profileImage: "assets/certs/profile.jpg",
   skills: [
     "Java","Spring Boot","MySQL","React","Testing","HTML","CSS","Bootstrap",
     "API Design","Postman","Git","SQL","REST","Maven",
