@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Deepshikha Bhardwaj — Portfolio</title>
+  <meta name="description" content="Deepshikha Bhardwaj — Software developer. Java backends, clean frontends, APIs and testing-first delivery.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <div class="logo" id="logoText" aria-hidden>DB</div>
+        <div class="brand-text">
+          <div class="name" id="nameTitle">Deepshikha Bhardwaj</div>
+          <div class="role" id="roleTitle">Software Developer</div>
+        </div>
+      </div>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="right-actions">
+        <a class="btn primary" id="resumeBtn" href="resume.pdf" download aria-label="Download resume">Resume</a>
+        <a class="btn primary" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <div class="bg-shape shape-1" aria-hidden></div>
+    <div class="bg-shape shape-2" aria-hidden></div>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero reveal" id="hero" aria-labelledby="heroHeading">
+        <div class="hero-left">
+          <div class="kicker" id="kicker">Aspiring software developer</div>
+          <h1 id="heroHeading">Hey — I'm <span class="accent" id="heroName">Deepshikha Bhardwaj</span>.</h1>
+          <p class="lead" id="heroLead">I write Java backends and ship dependable features. I pair clean APIs with purposeful UIs and automated tests.</p>
+
+          <div class="hero-ctas">
+            <a class="btn big primary" href="#projects">See projects</a>
+            <a class="btn big primary" id="downloadCV" href="resume.pdf" download>Download CV</a>
+          </div>
+
+          <!-- email + location + TOP socials -->
+          <ul class="meta-list" id="metaList" aria-hidden>
+            <!-- rendered by script -->
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card" role="region" aria-label="Profile card">
+            <img id="profileImg" src="assets/profile.jpg" alt="Profile photo — Deepshikha Bhardwaj" />
+            <div class="profile-info">
+              <div class="pname" id="profileName">Deepshikha Bhardwaj</div>
+              <div class="prole" id="profileRole">Software Developer</div>
+            </div>
+          </div>
+
+          <div class="skill-cloud" id="skillCloud" aria-hidden>
+            <!-- skills rendered by script -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="card-section reveal">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted" id="aboutShort">Aspiring dev with internship experience, product modules, and a testing-first approach.</p>
+        </div>
+
+        <div class="cards-row">
+          <div class="info-card" id="cardWhatIDo"></div>
+          <div class="info-card" id="cardHighlights"></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects-section reveal">
+        <h2>Projects</h2>
+        <div class="projects-grid" id="projectsGrid" role="list"></div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section id="certificates" class="card-section reveal">
+        <div class="section-head">
+          <h2>Certificates</h2>
+          <p class="muted">Certifications I completed</p>
+        </div>
+
+        <div class="cert-grid" id="certGrid" aria-live="polite"></div>
+      </section>
+
+      <!-- EDUCATION — combined single block -->
+      <section id="education" class="card-section reveal">
+        <div class="section-head">
+          <h2>Education</h2>
+          <p class="muted">Formal qualifications</p>
+        </div>
+
+        <div class="education-combined card-large" id="educationCombined" role="list">
+          <!-- rendered by script -->
+        </div>
+      </section>
+
+      <!-- CONTACT: centered single column form (no socials here) -->
+      <section id="contact" class="contact-section reveal">
+        <h2>Contact</h2>
+
+        <div class="contact-center">
+          <form id="contactForm" class="contact-form center" aria-label="Contact form">
+            <label class="field">
+              <span class="label-text">Your name</span>
+              <input id="name" placeholder="Type your name" required />
+            </label>
+
+            <label class="field">
+              <span class="label-text">Your email</span>
+              <input id="email" placeholder="you@domain.com" type="email" required />
+            </label>
+
+            <label class="field">
+              <span class="label-text">Message</span>
+              <textarea id="message" rows="6" placeholder="Hi Deepshikha — I loved your project..." required></textarea>
+            </label>
+
+            <div class="form-row center-row">
+              <button class="btn primary" type="submit">Send message</button>
+              <button class="btn ghost" id="emailBtn" type="button">Email me</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
